@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpinningRecord",
+            "request": "launch",
+            "mainClass": "_01_methods._2_spinning_record.SpinningRecord",
+            "projectName": "Level1-Module0_bb055906"
+        },
+        {
+            "type": "java",
             "name": "BodyPartQuizRunner",
             "request": "launch",
             "mainClass": "_03_gui_with_help._4_body_part_quiz.BodyPartQuizRunner"
