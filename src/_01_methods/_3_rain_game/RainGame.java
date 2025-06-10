@@ -1,5 +1,7 @@
 package _01_methods._3_rain_game;
 
+import java.awt.Color;
+
 import processing.core.PApplet;
 import processing.core.PImage;
 
@@ -60,11 +62,21 @@ public class RainGame extends PApplet {
 
     @Override
     public void setup() {
-
+        bucket = loadImage("images/bucket.png");
+        bucket.resize(100, 100);
     }
 
     @Override
     public void draw() {
+        
+        y = 100;
+        background(0, 17, 255);
+        fill(140, 250, 250);
+        stroke(162, 255, 0);
+        int randomNumber = (int)random(width);
+        ellipse(randomNumber, y, width, height);
+        y = 0;
+        
 
     }
 

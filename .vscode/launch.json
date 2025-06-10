@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RainGame",
+            "request": "launch",
+            "mainClass": "_01_methods._3_rain_game.RainGame",
+            "projectName": "Level1-Module0_bb055906"
+        },
+        {
+            "type": "java",
             "name": "SpinningRecord",
             "request": "launch",
             "mainClass": "_01_methods._2_spinning_record.SpinningRecord",
