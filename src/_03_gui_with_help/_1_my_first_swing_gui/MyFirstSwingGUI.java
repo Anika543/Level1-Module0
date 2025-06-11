@@ -35,6 +35,7 @@ public class MyFirstSwingGUI {
 		JLabel JL = new JLabel(); 
 
 		// 7. Set the text of the JLabel to a lovely greeting.
+		JL.setText("Hello");
 		
 
 		// 8. Add the JPanel object to the JFrame
@@ -52,6 +53,7 @@ public class MyFirstSwingGUI {
 		loadImage(); 
 
 		// 13. Re-pack the JFrame object.
+		JF.pack(); 
 
 		// 14. Run the program one more time. Do you see the image?
 
