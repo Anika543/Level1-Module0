@@ -6,6 +6,7 @@ package _03_gui_with_help._1_my_first_swing_gui;
 
 import java.io.IOException;
 
+
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -20,7 +21,7 @@ public class MyFirstSwingGUI {
 
 
 		// 2. Set your JFrame object to be visible
-		JF.isVisible(); 
+		JF.setVisible(true); 
 
 		// 3. Run your program. Do you see your window? It's probably very
 		// small.

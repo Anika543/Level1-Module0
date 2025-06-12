@@ -16,6 +16,8 @@ public class TooManyShapes {
 		String input = JOptionPane.showInputDialog("Enter the number of sides"); 
 		int numSides = Integer.parseInt(input);
 		
+		rob.miniaturize();
+		
 		//2. Ask the user how many shapes they want
 		String input2 = JOptionPane.showInputDialog("Enter the number of shapes"); 
 		int numShapes = Integer.parseInt(input2);
