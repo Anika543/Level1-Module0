@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/_04_gui_from_scratch/_3_sound_effects_machine/268582__zagi2__buba-loop.wav</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Downloads/268582__zagi2__buba-loop.wav</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
